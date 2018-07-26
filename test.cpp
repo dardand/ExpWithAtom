@@ -13,6 +13,7 @@ int main()
   for (int i = 0; i < v.size(); i++)
   {
     std::cout << v.at(i);
+    std::cout << "ONE MORE STD OUT";
   }
 }
 void changeVector(std::vector<int> &vector1)

@@ -13,12 +13,9 @@ int main()
   for (int i = 0; i < v.size(); i++)
   {
     std::cout << v.at(i);
-    std::cout << "ONE MORE STD OUT";
-    std::cout << "ONE MORE STD OUT";
   }
 }
 void changeVector(std::vector<int> &vector1)
-{
-  std::cout << "ONE MORE STD OUT";
+
   vector1.push_back(9);
 }
